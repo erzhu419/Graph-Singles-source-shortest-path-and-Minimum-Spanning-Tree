@@ -47,3 +47,7 @@ iterate through all edges and apply find-union algorithm. The find and union
 operations can take atmost O(LogV) time. So overall complexity is O(ELogE +
 ELogV) time. The value of E can be atmost O(V2), so O(LogV) are O(LogE)
 same. Therefore, overall time complexity is O(ElogE) or O(ElogV).
+
+
+# Input format
+See the text file first two numbers represent the number of vertices and edges.The letter U stands for undirected graph(D for directed).From the second line list all edges and its weight(e.g.edge(A,B)and its weight.The last line is optional.If given,it represents the source node.
